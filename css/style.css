@@ -1,0 +1,133 @@
+@import "dojox/layout/resources/FloatingPane.css";
+@import "dojox/layout/ResizeHandle";
+
+.container {
+    margin-top: 30px;
+    margin-left: 30px;    
+    width: 1000px;
+    height: 1000px;    
+    background-color: #ddd;
+}
+
+#node{
+    position: relative;
+}
+
+#resizeHandle{
+    bottom: 4px;
+    right: 4px;
+}
+
+#calc {   
+
+    width: 50%;
+    padding: 20px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #B5C689;
+}
+
+#calc_panel{        
+    width: 80%;        
+    padding: 20px;
+    padding-right: 5px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dojoxFloatingPane {
+    padding:0 !important;
+    border:solid 1px #769DC0 !important;
+
+}
+
+.dojoxFloatingPaneTitle {    
+    color:brown;
+    font-family: fantasy;
+    padding: 5px 7px 4px 7px;    
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #B5C689;
+    border: 0;
+    border-bottom: 2px solid #2475ab;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #2475ab;
+    box-shadow: inset 0 -2px #2475ab;
+}
+
+.dojoxFloatingPaneContent {
+    border-top:solid 1px #769DC0;
+    padding:0;
+    overflow:hidden;
+    background: #B5C689;
+    height: 100%
+
+}
+
+.btn.dijitButton .dijitButtonNode {
+    width: 25px;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family:inherit;
+    color: #e9e9e9;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #2475ab;
+    border: 0;
+    border-bottom: 2px solid #263849;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #263849;
+    box-shadow: inset 0 -2px #263849;    
+}
+
+.btn.dijitButton .dijitButtonNode:active {
+    top: 4px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.allClear.dijitButton .dijitButtonNode {
+    color: #faddde;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #c0392b;
+    border: 0;
+    border-bottom: 2px solid #b53224;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #b53224;
+    box-shadow: inset 0 -2px #b53224;
+}
+.allClear.dijitButton .dijitButtonNode:active {
+    top: 4px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.eq.dijitButton .dijitButtonNode {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #27ae60;
+    border: 0;
+    width: 285%;
+    border-bottom: 2px solid #219d55;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #219d55;
+    box-shadow: inset 0 -2px #219d55;
+    color: #e8f0de;    
+}
+
+.eq.dijitButton .dijitButtonNode:active {    
+    top: 4px;
+    outline: none;
+    -webkit-box-shadow: 0px 0px #d3545d;
+    box-shadow: 0px 0px #d3545d;
+}
+
+.test{
+    float :right;
+    color: #2da1c1;
+    font-size: large;
+    text-decoration: none;
+}
